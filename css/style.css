@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    padding: 5px;
+}
+
+a:link, a:visited {
+    color: #222222;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    color: #000000;
+  }
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #20282c;
+    line-height: 1.6;
+}
+
+h2 {
+    padding: 20px 0px;
+}
+
+#showcase {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0 60px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.15);
+}
+
+#showcase p {
+    font-size: 20px;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.15);
+}
+
+#showcase img {
+    padding: 10px 0px;
+    margin-top: 30px;
+    height: 50px;
+    width: auto;
+}
+
+#showcase .button:hover {
+    background:#20282c;
+    color: #ffffff;
+}
+
+#main-description {
+    font-size: 24px;
+    padding: 50px 20vw;
+    background: #2DC295;
+    color: #ffffff;
+    text-align: center;
+}
+
+#feature-section {
+    padding: 60px 20vw;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#feature-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+}
+
+#feature-header img {
+    height: auto;
+    width: 250px;
+    padding: 10px;
+}
+
+#feature-text {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 40px;
+}
+
+#feature-text ul {
+    padding: 0px 15px;
+}
+
+#footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+#footer div {
+    padding: 30px;
+}
+
+#footer .box-1 {
+    padding: 30px 50px;
+    line-height: 2;
+    background: #E5F9E0;
+    color: #ffffff;
+}
+
+#footer .box-1 img {
+    padding: 20px 0px;
+    height: 40px;
+    width: auto;
+}
+
+#privacy {
+    font-size: 20px;
+    padding: 50px 20vw;
+    background: #2CA2A8;
+    color: #ffffff;
+    text-align: left;
+}
+
+#privacy p {
+    padding: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    #feature-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #feature-header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #feature-text {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
